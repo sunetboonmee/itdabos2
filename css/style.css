@@ -248,10 +248,8 @@ a {
 
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
-    font-weight: 300;
-    color: #364d59;
-    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
-}
+  font-weight: 300;
+  color: #364d59; }
 
 .border-2 {
   border-width: 2px; }
@@ -488,9 +486,7 @@ h1, h2, h3, h4, h5,
   .site-navbar .site-navigation .site-menu {
     margin: 0;
     padding: 0;
-    margin-bottom: 0;
-    text-align: left;
-}
+    margin-bottom: 0; }
     .site-navbar .site-navigation .site-menu .active {
       color: #43ab92 !important; }
     .site-navbar .site-navigation .site-menu a {
@@ -506,10 +502,7 @@ h1, h2, h3, h4, h5,
         display: inline-block;
         text-decoration: none !important; }
         .site-navbar .site-navigation .site-menu > li > a:hover {
-    color: #43ab92;
-    font-size: 1rem;
-    text-align: left;
-}
+          color: #43ab92; }
       .site-navbar .site-navigation .site-menu > li.active > a {
         color: #43ab92 !important; }
     .site-navbar .site-navigation .site-menu .has-children {
@@ -1666,8 +1659,10 @@ h1, h2, h3, h4, h5,
     font-size: 14px; }
 
 .service-29193 {
-  background: #fff;
-  padding: 50px 30px; }
+    background: #fff;
+    padding: 50px 30px;
+    text-align: left;
+}
   .service-29193 h3 {
     font-weight: bold;
     text-transform: uppercase;
